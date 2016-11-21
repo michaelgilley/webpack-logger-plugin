@@ -1,0 +1,29 @@
+{
+  "name": "webpack-logger-plugin",
+  "version": "1.0.0",
+  "description": "A better logger for Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "progress",
+    "spinner",
+    "logger"
+  ],
+  "author": {
+    "name": "Michael Gilley",
+    "email": "michaelgilley@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "elegant-spinner": "^1.0.1",
+    "lodash.throttle": "^4.1.1",
+    "ora": "^0.3.0",
+    "react-dev-utils": "^0.3.0",
+    "webpack": "^1.13.3"
+  }
+}
