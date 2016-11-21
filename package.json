@@ -1,6 +1,6 @@
 {
   "name": "webpack-logger-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A better logger for Webpack.",
   "main": "index.js",
   "engines": {
@@ -10,9 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-   "type": "git",
-   "url": "git+https://github.com/michaelgilley/webpack-logger-plugin.git"
- },
+    "type": "git",
+    "url": "git+https://github.com/michaelgilley/webpack-logger-plugin.git"
+  },
   "keywords": [
     "webpack",
     "plugin",
