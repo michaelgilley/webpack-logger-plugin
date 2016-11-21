@@ -40,7 +40,7 @@ $ npm i -D webpack-logger-plugin
 Add to your webpack config:
 
 ```js
-const WebpackLoggerPlugin()
+const WebpackLoggerPlugin = require('webpack-logger-plugin')
 
 const config = {
 	entry: '...',
