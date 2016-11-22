@@ -13,6 +13,11 @@ function WebpackLoggerPlugin (opts = {}) {
 
 WebpackLoggerPlugin.prototype.apply = function (compiler) {
   const stream = this.stream
+
+  if (!stream || !stream.isTTY) {
+    return
+  }
+
   let spinnerOn
   setTimeout(() => {
     clearConsole()
