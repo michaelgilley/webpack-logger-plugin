@@ -40,11 +40,14 @@ WebpackLoggerPlugin.prototype.apply = function (compiler) {
       case msg === 'asset optimization':
         return chalk.yellow(frame() + ' Packing up assets')
 
+      case msg === 'hashing':
+        return chalk.yellow(frame() + ' Hashing modules')
+
       case msg.indexOf('emit') >= 0:
         return chalk.yellow(frame() + ' Writing to disc')
 
       default:
-        return `${frame()} ${msg}`
+        return `${frame()} ${msg[0].toUpperCase()}${msg.slice(1)}`
     }
   }
 
