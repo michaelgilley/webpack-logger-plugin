@@ -26,6 +26,8 @@ WebpackLoggerPlugin.prototype.apply = function (compiler) {
   }, 1000)
 
   const getProgressMsg = (percent, msg) => {
+    msg = msg || ' '
+
     switch (true) {
       case msg === 'compile':
         return chalk.cyan(frame() + ' Scanning')
