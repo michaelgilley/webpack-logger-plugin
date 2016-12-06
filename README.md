@@ -2,6 +2,7 @@
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![dependencies Status](https://david-dm.org/michaelgilley/webpack-logger-plugin/status.svg)](https://david-dm.org/michaelgilley/webpack-logger-plugin)
+[![npm](https://img.shields.io/npm/dm/webpack-logger-plugin.svg)](https://www.npmjs.com/package/webpack-logger-plugin)
 
 What you get:
 
